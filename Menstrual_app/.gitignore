@@ -1,0 +1,59 @@
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+
+# Django specific
+*.log
+*.pot
+*.py[cod]
+*.coverage
+*.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# pyenv
+.python-version
+
+# Django migrations
+*/migrations/*
+
+# Database files
+*.sqlite3
+
+# Test result files
+*.xml
+
+# Static and media files
+/static/
+/media/
+
+# Ignore directories that might be created by Django apps
+**/migrations/
+
+# MySQL or PostgreSQL database configuration files
+*.sql
