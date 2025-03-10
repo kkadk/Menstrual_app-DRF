@@ -13,7 +13,6 @@ from rest_framework.permissions import AllowAny
 import datetime
 from .serializers import UserRegistrationSerializer
 
-from rest_framework import viewsets
 from .models import UserProfile, MenstrualCycle, FlowIntensityLog, MenstrualCycleHistory, Prediction
 from .serializers import (
     UserProfileSerializer,
