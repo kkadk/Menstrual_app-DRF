@@ -73,6 +73,7 @@ class PredictionViewSet(viewsets.ModelViewSet):
 
     def get_queryset(self):
         return Prediction.objects.filter(user=self.request.user)
+    
 
 class RegisterUserView(APIView):
     permission_classes = [AllowAny]
